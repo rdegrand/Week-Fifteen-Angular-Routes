@@ -8,7 +8,7 @@ const routes: Routes = [
   { path: '', component: FooComponent }
   , { path: 'foo', component: FooComponent }
   , { path: 'bar', component: BarComponent }
-  , { path: 'cat', component: CatComponent }
+  , { path: 'cat/:name', component: CatComponent }
 ];
 
 @NgModule({
